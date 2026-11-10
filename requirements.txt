@@ -1,0 +1,10 @@
+# Tested with Python 3.14. These version ranges reproduce the results reported
+# in the notebooks exactly. Newer scikit-learn / xgboost releases change some
+# tuned hyperparameters and metrics slightly.
+pandas>=3.0,<3.1
+numpy>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.8,<1.9
+xgboost>=3.0,<3.3
+jupyter
